@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a992455a-4db2-43f1-a8b3-7e6f0b713320" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FrancisBoyyy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FrancisBoyyy/CAA-Project2.git&quot;,
+    &quot;accountId&quot;: &quot;a76d0229-0b87-4921-a44e-324df971ea5f&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.920187650624875" />
+      <entry key="MS500" value="1.9836056645288367" />
+      <entry key="S2" value="2.1500428960594427" />
+      <entry key="S5" value="2.7090914930258627" />
+      <entry key="S10" value="3.1961049965793196" />
+      <entry key="S30" value="4.681342897635471" />
+      <entry key="S60" value="7.981058715006719" />
+      <entry key="M2" value="13.01410362146214" />
+      <entry key="M5" value="19.950651145531342" />
+      <entry key="M10" value="28.838533116840306" />
+      <entry key="M15" value="38.698832831384266" />
+      <entry key="M30" value="62.906799740164395" />
+      <entry key="H1" value="87.53961311373156" />
+      <entry key="H2" value="105.5445858660148" />
+      <entry key="H4" value="116.49239598010632" />
+      <entry key="D1" value="126.79750506732343" />
+      <entry key="W1" value="128.68233670842574" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.406513148567E-311" />
+      <entry key="MS500" value="8.48826665109844E-63" />
+      <entry key="S2" value="3.035321887039399E-16" />
+      <entry key="S5" value="6.207048572424115E-7" />
+      <entry key="S10" value="7.899980357377555E-4" />
+      <entry key="S30" value="0.1052713256762818" />
+      <entry key="S60" value="0.41753800880442543" />
+      <entry key="M2" value="0.8883698154423378" />
+      <entry key="M5" value="1.4353307236796384" />
+      <entry key="M10" value="1.6922599937094676" />
+      <entry key="M15" value="1.7887023264271142" />
+      <entry key="M30" value="1.8911486913397024" />
+      <entry key="H1" value="1.9447475962607546" />
+      <entry key="H2" value="1.972163746684284" />
+      <entry key="H4" value="1.986028933704129" />
+      <entry key="D1" value="1.9976640997046922" />
+      <entry key="W1" value="1.999666118518487" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6779614267233813" />
+      <entry key="MS500" value="1.927437267936921" />
+      <entry key="S2" value="2.078909504941881" />
+      <entry key="S5" value="2.5832188768409896" />
+      <entry key="S10" value="3.0884059852503896" />
+      <entry key="S30" value="4.730546022268607" />
+      <entry key="S60" value="8.362450862557296" />
+      <entry key="M2" value="13.879512119607316" />
+      <entry key="M5" value="21.374409613805458" />
+      <entry key="M10" value="30.52411786309973" />
+      <entry key="M15" value="40.48266609235998" />
+      <entry key="M30" value="64.79510332830365" />
+      <entry key="H1" value="89.48275186951116" />
+      <entry key="H2" value="107.51588010158696" />
+      <entry key="H4" value="118.4779707547562" />
+      <entry key="D1" value="128.79509046376654" />
+      <entry key="W1" value="130.68199150541398" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EzyYuFuF1wS4gNKeJG23wQbVoa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/franciscosobraldealmeida/Library/CloudStorage/OneDrive-FCTNOVA/MEI/Ano_1/Semestre_2/CriptAA/Projeto/Proj2/PA2-ProjectAssignment&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a992455a-4db2-43f1-a8b3-7e6f0b713320" name="Changes" comment="" />
+      <created>1781195744691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781195744691</updated>
+      <workItem from="1781195745930" duration="197000" />
+      <workItem from="1781195968049" duration="5474000" />
+      <workItem from="1781366117342" duration="1822000" />
+      <workItem from="1781372585814" duration="315000" />
+      <workItem from="1781372922951" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

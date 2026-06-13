@@ -1,0 +1,21 @@
+employeeID,First Name,Last Name,Full Name,DateofBirth,Age,Email,Contact Phone Number,Personal Phone Number,JobTitle,DepartmentID,HireDate,EmploiementType,Salary,SalaryBand,BonusEligibiity
+EMP1001,John,Smith,John Smith,2001-03-09,25,john.smith@examplecorp.com,+351 918068606,+351 924694766,HR Manager,DPT103,2022-06-20,Contract,31988,D,No
+EMP1002,Emma,Johnson,Emma Johnson,1997-03-08,29,emma.johnson@examplecorp.com,+351 911774507,+351 923878207,HR Manager,DPT109,2025-11-12,Part-time,29794,C,Yes
+EMP1003,Michael,Brown,Michael Brown,1980-05-07,46,michael.brown@examplecorp.com,+351 918030109,+351 924250516,System Administrator,DPT104,2025-10-25,Full-time,26154,D,Yes
+EMP1004,Sophia,Taylor,Sophia Taylor,1983-10-20,43,sophia.taylor@examplecorp.com,+351 917925614,+351 928436428,Accountant,DPT109,2023-01-06,Part-time,31821,B,No
+EMP1005,Daniel,Anderson,Daniel Anderson,1992-10-03,34,daniel.anderson@examplecorp.com,+351 916452046,+351 927777687,UX Designer,DPT102,2019-10-18,Contract,63136,D,No
+EMP1006,Olivia,Thomas,Olivia Thomas,1992-10-25,34,olivia.thomas@examplecorp.com,+351 913066000,+351 928971712,Marketing Specialist,DPT105,2015-03-17,Part-time,112435,B,No
+EMP1007,James,Jackson,James Jackson,1999-08-16,27,james.jackson@examplecorp.com,+351 911650083,+351 926412553,Accountant,DPT105,2016-10-01,Part-time,100073,D,Yes
+EMP1008,Isabella,White,Isabella White,1994-09-22,32,isabella.white@examplecorp.com,+351 917389483,+351 928521741,Data Analyst,DPT106,2025-07-24,Part-time,27751,C,Yes
+EMP1009,William,Harris,William Harris,1982-04-27,44,william.harris@examplecorp.com,+351 911239977,+351 924642252,Business Analyst,DPT101,2019-03-24,Contract,75795,B,Yes
+EMP1010,Mia,Martin,Mia Martin,1994-12-09,32,mia.martin@examplecorp.com,+351 914997064,+351 928554568,Accountant,DPT109,2019-03-22,Part-time,78073,D,Yes
+EMP1011,Alexander,Thompson,Alexander Thompson,1991-06-10,35,alexander.thompson@examplecorp.com,+351 914561751,+351 924080042,Business Analyst,DPT101,2020-02-21,Intern,99217,C,No
+EMP1012,Charlotte,Garcia,Charlotte Garcia,1989-01-02,37,charlotte.garcia@examplecorp.com,+351 914374756,+351 921160241,UX Designer,DPT107,2025-12-28,Part-time,28629,B,No
+EMP1013,Ethan,Martinez,Ethan Martinez,2000-04-08,26,ethan.martinez@examplecorp.com,+351 913745787,+351 926229735,UX Designer,DPT109,2019-03-10,Full-time,31395,D,No
+EMP1014,Amelia,Robinson,Amelia Robinson,1993-10-20,33,amelia.robinson@examplecorp.com,+351 913178757,+351 928606977,Sales Executive,DPT104,2025-01-10,Full-time,107546,C,Yes
+EMP1015,Benjamin,Clark,Benjamin Clark,1995-06-18,31,benjamin.clark@examplecorp.com,+351 911731919,+351 922470081,Project Manager,DPT110,2020-05-20,Contract,46260,B,Yes
+EMP1016,Harper,Rodriguez,Harper Rodriguez,1996-08-22,30,harper.rodriguez@examplecorp.com,+351 918249535,+351 922581321,Sales Executive,DPT109,2015-03-03,Full-time,111992,A,No
+EMP1017,Lucas,Lewis,Lucas Lewis,2000-01-26,26,lucas.lewis@examplecorp.com,+351 911912397,+351 926627524,UX Designer,DPT102,2023-02-02,Part-time,98908,C,No
+EMP1018,Evelyn,Lee,Evelyn Lee,1985-01-22,41,evelyn.lee@examplecorp.com,+351 916323925,+351 924240853,Data Analyst,DPT108,2025-10-13,Full-time,108593,C,Yes
+EMP1019,Henry,Walker,Henry Walker,1994-03-01,32,henry.walker@examplecorp.com,+351 913977209,+351 925117952,UX Designer,DPT101,2015-08-16,Full-time,56959,A,No
+EMP1020,Abigail,Hall,Abigail Hall,1987-03-21,39,abigail.hall@examplecorp.com,+351 919478773,+351 929963182,HR Manager,DPT107,2015-04-09,Contract,76829,B,No
