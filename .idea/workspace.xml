@@ -4,44 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a992455a-4db2-43f1-a8b3-7e6f0b713320" name="Changes" comment="finalmente">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/bson_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mongodb_driver_core_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mongodb_driver_sync_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clean.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/BootstrapClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/config/ClientEmployeeIndexStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/config/KeyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/repository/MongoEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/service/RecordDecryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/CryptoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/EncryptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/Sha256Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/aes/DeterministicAesCtr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/aes/RandomAesGcm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/hom/OpeCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/hom/PaillierCryptosystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/hom/TreeMapOpeCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/integrityandauthenticity/HmacUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/integrityandauthenticity/RecordSigner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/integrityandauthenticity/RecordVerifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crypto/integrityandauthenticity/SignatureUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/bson-5.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/mongodb-driver-core-5.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/mongodb-driver-sync-5.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prepare.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a992455a-4db2-43f1-a8b3-7e6f0b713320" name="Changes" comment=".idea files that might help with depencencies and packages that were imported.">
+      <change afterPath="$PROJECT_DIR$/src/crypto/hom/BoldyrevaOpeCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Company-Employee.Database/Dataser-Emp-Database.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company-Employee.Database/Dataset-Emp-Database.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Company-Employee.Database/Dataset-Emp-Database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company-Employee.Database/Dataset-Emp-Database.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Company-Employee.Database/Dataset-Emp-Database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company-Employee.Database/Dataset-Emp-Database.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/BootstrapClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/BootstrapClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,61 +43,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000005508152754" />
-      <entry key="MS500" value="1.0888593113126022" />
-      <entry key="S2" value="1.679436344290054" />
-      <entry key="S5" value="2.4399143093738047" />
-      <entry key="S10" value="3.0236536353239982" />
-      <entry key="S30" value="3.6715929233936366" />
-      <entry key="S60" value="4.77705578974394" />
-      <entry key="M2" value="8.172125467142493" />
-      <entry key="M5" value="14.769070609779652" />
-      <entry key="M10" value="19.008224676022454" />
-      <entry key="M15" value="21.216381951936647" />
-      <entry key="M30" value="27.359049969838914" />
-      <entry key="H1" value="40.25973567952977" />
-      <entry key="H2" value="58.301975130076265" />
-      <entry key="H4" value="85.03403105812544" />
-      <entry key="D1" value="310.86342871401683" />
-      <entry key="W1" value="464.6242003679706" />
+      <entry key="MS100" value="1.547480246821345" />
+      <entry key="MS500" value="2.2690708589900592" />
+      <entry key="S2" value="4.8746645018430605" />
+      <entry key="S5" value="8.3778765676368" />
+      <entry key="S10" value="12.018223715467228" />
+      <entry key="S30" value="17.680046681662343" />
+      <entry key="S60" value="20.028882058406655" />
+      <entry key="M2" value="21.439029926852175" />
+      <entry key="M5" value="24.66560500340097" />
+      <entry key="M10" value="35.64797351125382" />
+      <entry key="M15" value="45.90048648528241" />
+      <entry key="M30" value="65.3292820176865" />
+      <entry key="H1" value="86.83176721901161" />
+      <entry key="H2" value="113.99573124677453" />
+      <entry key="H4" value="149.6521389818037" />
+      <entry key="D1" value="387.40406554625355" />
+      <entry key="W1" value="556.4247881558362" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="5.082099947945708E-168" />
-      <entry key="S30" value="2.0970683792200335E-56" />
-      <entry key="S60" value="1.9922348060113228E-28" />
-      <entry key="M2" value="2.293864579204977E-14" />
-      <entry key="M5" value="7.876527145652047E-6" />
-      <entry key="M10" value="0.006497943013544" />
-      <entry key="M15" value="0.06416919658055488" />
-      <entry key="M30" value="0.6652211980003601" />
-      <entry key="H1" value="2.2285069952803283" />
-      <entry key="H2" value="4.180058195799017" />
-      <entry key="H4" value="6.078405687019866" />
-      <entry key="D1" value="13.634200079810581" />
-      <entry key="W1" value="18.037802296269337" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.6385320326021697E-133" />
+      <entry key="S60" value="5.568800958125834E-67" />
+      <entry key="M2" value="1.2127697653453249E-33" />
+      <entry key="M5" value="1.5332713069417883E-13" />
+      <entry key="M10" value="9.066048029657872E-7" />
+      <entry key="M15" value="1.726187682453361E-4" />
+      <entry key="M30" value="0.034502199796907336" />
+      <entry key="H1" value="0.5075213944339223" />
+      <entry key="H2" value="1.9948144459321524" />
+      <entry key="H4" value="4.199037670025213" />
+      <entry key="D1" value="12.819064841198939" />
+      <entry key="W1" value="17.879643809386895" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726602679371359" />
-      <entry key="MS500" value="1.082715401772232" />
-      <entry key="S2" value="1.6767822337894331" />
-      <entry key="S5" value="2.43818076399256" />
-      <entry key="S10" value="3.022517538273571" />
-      <entry key="S30" value="3.6711162149714354" />
-      <entry key="S60" value="4.776754536079381" />
-      <entry key="M2" value="8.171881277062838" />
-      <entry key="M5" value="14.76890558189709" />
-      <entry key="M10" value="19.014530812843773" />
-      <entry key="M15" value="21.280048627617088" />
-      <entry key="M30" value="28.022362823612266" />
-      <entry key="H1" value="42.484955414353564" />
-      <entry key="H2" value="62.4786516819449" />
-      <entry key="H4" value="91.10976154748059" />
-      <entry key="D1" value="324.49651576394575" />
-      <entry key="W1" value="482.66179003915994" />
+      <entry key="MS100" value="1.5224482420532912" />
+      <entry key="MS500" value="2.261597234349828" />
+      <entry key="S2" value="4.8517234210672235" />
+      <entry key="S5" value="8.275941012254057" />
+      <entry key="S10" value="11.898302376440707" />
+      <entry key="S30" value="17.608777611194046" />
+      <entry key="S60" value="19.987666774900383" />
+      <entry key="M2" value="21.416862609586342" />
+      <entry key="M5" value="24.656235735528423" />
+      <entry key="M10" value="35.64297311685806" />
+      <entry key="M15" value="45.8971504631254" />
+      <entry key="M30" value="65.36178303424835" />
+      <entry key="H1" value="87.33753310679775" />
+      <entry key="H2" value="115.98841130113519" />
+      <entry key="H4" value="153.84906352599324" />
+      <entry key="D1" value="400.22203901711043" />
+      <entry key="W1" value="574.3042147745489" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -217,7 +184,7 @@
       <workItem from="1781373630668" duration="228000" />
       <workItem from="1781373929762" duration="883000" />
       <workItem from="1781374921048" duration="13830000" />
-      <workItem from="1781394912692" duration="23972000" />
+      <workItem from="1781394912692" duration="25772000" />
     </task>
     <task id="LOCAL-00001" summary="finalmente">
       <option name="closed" value="true" />
@@ -227,7 +194,39 @@
       <option name="project" value="LOCAL" />
       <updated>1781375816341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Resource relocation and system base files added for execution later.">
+      <option name="closed" value="true" />
+      <created>1781469979392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781469979392</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cryptography classes and docker compose file for deploying the MongoDB instance.">
+      <option name="closed" value="true" />
+      <created>1781470044890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781470044890</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Client classes for operating the system.">
+      <option name="closed" value="true" />
+      <created>1781470087442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781470087442</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".idea files that might help with depencencies and packages that were imported.">
+      <option name="closed" value="true" />
+      <created>1781470146246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781470146246</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +234,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finalmente" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalmente" />
+    <MESSAGE value="Resource relocation and system base files added for execution later." />
+    <MESSAGE value="Cryptography classes and docker compose file for deploying the MongoDB instance." />
+    <MESSAGE value="Client classes for operating the system." />
+    <MESSAGE value=".idea files that might help with depencencies and packages that were imported." />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea files that might help with depencencies and packages that were imported." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

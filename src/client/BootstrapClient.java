@@ -31,18 +31,18 @@ import java.util.TreeSet;
 public final class BootstrapClient {
 
     private final EncryptionService encryptionService;
-    private final OpeCipher         ageOpe;
-    private final OpeCipher         salaryOpe;
-    private final PrivateKey        signingPrivateKey;
-    private final byte[]            hmacKey;
+    private final OpeCipher ageOpe;
+    private final OpeCipher salaryOpe;
+    private final PrivateKey signingPrivateKey;
+    private final byte[] hmacKey;
     private final ClientEmployeeIndexStore employeeIndexStore;
 
     public BootstrapClient(
             EncryptionService encryptionService,
-            OpeCipher         ageOpe,
-            OpeCipher         salaryOpe,
-            PrivateKey        signingPrivateKey,
-            byte[]            hmacKey,
+            OpeCipher ageOpe,
+            OpeCipher salaryOpe,
+            PrivateKey signingPrivateKey,
+            byte[] hmacKey,
             ClientEmployeeIndexStore employeeIndexStore
     ) {
         this.encryptionService = Objects.requireNonNull(encryptionService,"encryptionService");

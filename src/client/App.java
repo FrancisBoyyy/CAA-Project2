@@ -9,6 +9,8 @@ import client.service.RecordDecryptor;
 import crypto.EncryptionService;
 import crypto.aes.DeterministicAesCtr;
 import crypto.aes.RandomAesGcm;
+import crypto.hom.BoldyrevaOpeCipher;
+import crypto.hom.OpeCipher;
 import crypto.hom.PaillierCryptosystem;
 import crypto.hom.TreeMapOpeCipher;
 import crypto.integrityandauthenticity.RecordSigner;
@@ -50,8 +52,15 @@ public final class App {
 
         EncryptionService encryptionService = new EncryptionService(det, rnd, paillierKeyPair);
 
+        /**
         TreeMapOpeCipher ageOpe = TreeMapOpeCipher.loadOrCreate(keysDir.resolve("age-ope.properties"));
         TreeMapOpeCipher salaryOpe = TreeMapOpeCipher.loadOrCreate(keysDir.resolve("salary-ope.properties"));
+         */
+
+        byte[] ageOpeKey    = keyManager.loadOrCreateBytes("age-ope.key",    32);
+        byte[] salaryOpeKey = keyManager.loadOrCreateBytes("salary-ope.key", 32);
+        OpeCipher ageOpe    = BoldyrevaOpeCipher.forAge(ageOpeKey);
+        OpeCipher salaryOpe = BoldyrevaOpeCipher.forSalaryCents(salaryOpeKey);
 
         ClientEmployeeIndexStore employeeIndexStore =
                 ClientEmployeeIndexStore.loadOrCreate(keysDir.resolve("employee-index.tsv"));
