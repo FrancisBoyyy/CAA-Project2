@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mongodb-driver-sync-5.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/mongodb-driver-sync-5.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
