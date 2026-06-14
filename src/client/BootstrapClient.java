@@ -134,9 +134,7 @@ public final class BootstrapClient {
         record.put("employmentType_rnd", encryptionService.encryptSensitiveText(employmentType));
         record.put("salaryBand_rnd", encryptionService.encryptSensitiveText(salaryBand));
 
-        System.out.println("age ope before : " + age);
         record.put("age_ope", age >= 0 ? ageOpe.encrypt(age) : null);
-        System.out.println("age ope after : " + ageOpe.encrypt(age));
 
         if (salaryCents >= 0) {
             record.put("salary_ope", salaryOpe.encrypt(salaryCents));

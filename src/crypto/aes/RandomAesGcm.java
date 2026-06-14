@@ -30,6 +30,10 @@ public final class RandomAesGcm {
 
     public String encrypt(String plaintext) {
         try {
+            /**
+            long start = System.nanoTime();
+             */
+
             byte[] iv = new byte[CryptoConfig.AES_GCM_IV_SIZE];
             random.nextBytes(iv);
 
@@ -41,7 +45,15 @@ public final class RandomAesGcm {
             System.arraycopy(iv, 0, out, 0, iv.length);
             System.arraycopy(ct, 0, out, iv.length, ct.length);
 
-            return Base64.getEncoder().encodeToString(out);
+            String base64 = Base64.getEncoder().encodeToString(out);
+
+            /**
+            long end = System.nanoTime();
+            long ns = (end - start);
+            System.out.println("[Execution time: " + ns + " ns]");
+             */
+
+            return base64;
         } catch (Exception e) {
             throw new RuntimeException("AES-GCM encryption failed", e);
         }

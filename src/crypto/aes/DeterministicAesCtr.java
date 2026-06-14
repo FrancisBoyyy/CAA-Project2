@@ -22,11 +22,23 @@ public final class DeterministicAesCtr {
 
     public String encrypt(String plaintext) {
         try {
+            /**
+            long start = System.nanoTime();
+             */
+
             byte[] iv = deriveIv(plaintext);
             Cipher cipher = Cipher.getInstance("AES/CTR/NoPadding");
             cipher.init(Cipher.ENCRYPT_MODE, aesKey, new IvParameterSpec(iv));
             byte[] ct = cipher.doFinal(plaintext.getBytes(StandardCharsets.UTF_8));
-            return Base64.getEncoder().encodeToString(ct);
+            String base64 = Base64.getEncoder().encodeToString(ct);
+
+            /**
+            long end = System.nanoTime();
+            long ns = (end - start);
+            System.out.println("[Execution time: " + ns + " ns]");
+             */
+
+            return base64;
         } catch (Exception e) {
             throw new RuntimeException("Deterministic AES-CTR encryption failed", e);
         }

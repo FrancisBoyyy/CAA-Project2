@@ -50,13 +50,25 @@ public final class BoldyrevaOpeCipher implements OpeCipher {
 
     @Override
     public long encrypt(long value) {
+        /**
+        long start = System.nanoTime();
+         */
+
         if (value < 0L || value > domainMax) {
             throw new IllegalArgumentException(
                     "Plaintext " + value + " outside domain [0, " + domainMax + ']');
         }
 
         long residue = Long.remainderUnsigned(prf(value), bucketSize);
-        return Math.addExact(Math.multiplyExact(value, bucketSize), residue);
+        long res = Math.addExact(Math.multiplyExact(value, bucketSize), residue);
+
+        /**
+        long end = System.nanoTime();
+        long ns = (end - start);
+        System.out.println("[Execution time: " + ns + " ns]");
+         */
+
+        return res;
     }
 
     @Override

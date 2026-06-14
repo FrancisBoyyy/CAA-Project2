@@ -119,6 +119,10 @@ public class PaillierCryptosystem {
      * @return Ciphertext c in Z_{n^2}*.
      */
     public static BigInteger encrypt(BigInteger m, PublicKey publicKey) {
+        /**
+        long start = System.nanoTime();
+         */
+
         if (m.signum() < 0 || m.compareTo(publicKey.n) >= 0) {
             throw new IllegalArgumentException(
                 "Plaintext m must be in [0, n). Got: " + m);
@@ -137,7 +141,15 @@ public class PaillierCryptosystem {
         BigInteger gm = publicKey.g.modPow(m, publicKey.nSquared);
         BigInteger rn = r.modPow(publicKey.n, publicKey.nSquared);
 
-        return gm.multiply(rn).mod(publicKey.nSquared);
+        BigInteger big = gm.multiply(rn).mod(publicKey.nSquared);
+
+        /**
+        long end = System.nanoTime();
+        long ns = (end - start);
+        System.out.println("[Execution time: " + ns + " ns]");
+         */
+
+        return big;
     }
 
     /**
