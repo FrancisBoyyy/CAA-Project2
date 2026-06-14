@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a992455a-4db2-43f1-a8b3-7e6f0b713320" name="Changes" comment=".idea files that might help with depencencies and packages that were imported.">
-      <change afterPath="$PROJECT_DIR$/src/crypto/hom/BoldyrevaOpeCipher.java" afterDir="false" />
+    <list default="true" id="a992455a-4db2-43f1-a8b3-7e6f0b713320" name="Changes" comment="Replacement of old TreeMapOpeCipher by new BoldyrevaOpeCipher which has now passed all tests.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/BootstrapClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/BootstrapClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crypto/hom/BoldyrevaOpeCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crypto/hom/BoldyrevaOpeCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +42,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.547480246821345" />
-      <entry key="MS500" value="2.2690708589900592" />
-      <entry key="S2" value="4.8746645018430605" />
-      <entry key="S5" value="8.3778765676368" />
-      <entry key="S10" value="12.018223715467228" />
-      <entry key="S30" value="17.680046681662343" />
-      <entry key="S60" value="20.028882058406655" />
-      <entry key="M2" value="21.439029926852175" />
-      <entry key="M5" value="24.66560500340097" />
-      <entry key="M10" value="35.64797351125382" />
-      <entry key="M15" value="45.90048648528241" />
-      <entry key="M30" value="65.3292820176865" />
-      <entry key="H1" value="86.83176721901161" />
-      <entry key="H2" value="113.99573124677453" />
-      <entry key="H4" value="149.6521389818037" />
-      <entry key="D1" value="387.40406554625355" />
-      <entry key="W1" value="556.4247881558362" />
+      <entry key="MS100" value="1.000000002862653" />
+      <entry key="MS500" value="1.0195593545228985" />
+      <entry key="S2" value="1.3879343111565812" />
+      <entry key="S5" value="1.936030461786011" />
+      <entry key="S10" value="2.807913688392417" />
+      <entry key="S30" value="4.76070891722425" />
+      <entry key="S60" value="5.712784014585437" />
+      <entry key="M2" value="6.307473950546088" />
+      <entry key="M5" value="6.731487097083745" />
+      <entry key="M10" value="7.89989589345025" />
+      <entry key="M15" value="11.270894106021405" />
+      <entry key="M30" value="27.106897976958244" />
+      <entry key="H1" value="55.206759635839724" />
+      <entry key="H2" value="91.94767907740518" />
+      <entry key="H4" value="136.1889182954509" />
+      <entry key="D1" value="385.0276122030954" />
+      <entry key="W1" value="561.4806951351006" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -67,37 +66,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="1.6385320326021697E-133" />
-      <entry key="S60" value="5.568800958125834E-67" />
-      <entry key="M2" value="1.2127697653453249E-33" />
-      <entry key="M5" value="1.5332713069417883E-13" />
-      <entry key="M10" value="9.066048029657872E-7" />
-      <entry key="M15" value="1.726187682453361E-4" />
-      <entry key="M30" value="0.034502199796907336" />
-      <entry key="H1" value="0.5075213944339223" />
-      <entry key="H2" value="1.9948144459321524" />
-      <entry key="H4" value="4.199037670025213" />
-      <entry key="D1" value="12.819064841198939" />
-      <entry key="W1" value="17.879643809386895" />
+      <entry key="S30" value="3.739489895924142E-164" />
+      <entry key="S60" value="2.660360000838479E-82" />
+      <entry key="M2" value="2.6507435807532665E-41" />
+      <entry key="M5" value="1.3226798922543216E-16" />
+      <entry key="M10" value="2.6627836823549157E-8" />
+      <entry key="M15" value="1.6432359496126733E-5" />
+      <entry key="M30" value="0.01064517346917968" />
+      <entry key="H1" value="0.2819079562704277" />
+      <entry key="H2" value="1.4867193499353109" />
+      <entry key="H4" value="3.625041772100663" />
+      <entry key="D1" value="12.508835608838048" />
+      <entry key="W1" value="17.81717886952013" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5224482420532912" />
-      <entry key="MS500" value="2.261597234349828" />
-      <entry key="S2" value="4.8517234210672235" />
-      <entry key="S5" value="8.275941012254057" />
-      <entry key="S10" value="11.898302376440707" />
-      <entry key="S30" value="17.608777611194046" />
-      <entry key="S60" value="19.987666774900383" />
-      <entry key="M2" value="21.416862609586342" />
-      <entry key="M5" value="24.656235735528423" />
-      <entry key="M10" value="35.64297311685806" />
-      <entry key="M15" value="45.8971504631254" />
-      <entry key="M30" value="65.36178303424835" />
-      <entry key="H1" value="87.33753310679775" />
-      <entry key="H2" value="115.98841130113519" />
-      <entry key="H4" value="153.84906352599324" />
-      <entry key="D1" value="400.22203901711043" />
-      <entry key="W1" value="574.3042147745489" />
+      <entry key="MS100" value="3.9545280914450915E-7" />
+      <entry key="MS500" value="0.05716663460930756" />
+      <entry key="S2" value="0.7500417267322458" />
+      <entry key="S5" value="1.5499515438898719" />
+      <entry key="S10" value="2.5301279361518234" />
+      <entry key="S30" value="4.604433248049953" />
+      <entry key="S60" value="5.618732472393701" />
+      <entry key="M2" value="6.255425642053617" />
+      <entry key="M5" value="6.709291047300364" />
+      <entry key="M10" value="7.888411884644067" />
+      <entry key="M15" value="11.262963233814215" />
+      <entry key="M30" value="27.113091161168906" />
+      <entry key="H1" value="55.48576817012267" />
+      <entry key="H2" value="93.43184376328517" />
+      <entry key="H4" value="139.8116533980527" />
+      <entry key="D1" value="397.53530239166184" />
+      <entry key="W1" value="579.2976460766874" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -184,7 +183,7 @@
       <workItem from="1781373630668" duration="228000" />
       <workItem from="1781373929762" duration="883000" />
       <workItem from="1781374921048" duration="13830000" />
-      <workItem from="1781394912692" duration="25772000" />
+      <workItem from="1781394912692" duration="28901000" />
     </task>
     <task id="LOCAL-00001" summary="finalmente">
       <option name="closed" value="true" />
@@ -226,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781470146246</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Replacement of old TreeMapOpeCipher by new BoldyrevaOpeCipher which has now passed all tests.">
+      <option name="closed" value="true" />
+      <created>1781471660784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1781471660784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +245,8 @@
     <MESSAGE value="Cryptography classes and docker compose file for deploying the MongoDB instance." />
     <MESSAGE value="Client classes for operating the system." />
     <MESSAGE value=".idea files that might help with depencencies and packages that were imported." />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea files that might help with depencencies and packages that were imported." />
+    <MESSAGE value="Replacement of old TreeMapOpeCipher by new BoldyrevaOpeCipher which has now passed all tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replacement of old TreeMapOpeCipher by new BoldyrevaOpeCipher which has now passed all tests." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -61,9 +61,6 @@ public final class BootstrapClient {
 
         employeeIndexStore.clear();
 
-        TreeSet<Long> ages = new TreeSet<>();
-        TreeSet<Long> salaries = new TreeSet<>();
-
         List<RowEnvelope> envelopes = new ArrayList<>(rows.size());
         for (Map<String, String> row : rows) {
             long age = parseAge(
@@ -72,14 +69,8 @@ public final class BootstrapClient {
             long salaryCents = parseMoneyToCents(
                     firstNonBlank(row, "salary", "Salary", "BaseSalary", "baseSalary"));
 
-            if (age >= 0)         ages.add(age);
-            if (salaryCents >= 0) salaries.add(salaryCents);
-
             envelopes.add(new RowEnvelope(row, age, salaryCents));
         }
-
-        Map<Long, Long> ageCipherByPlain = buildOpeMap(ages, ageOpe);
-        Map<Long, Long> salaryCipherByPlain = buildOpeMap(salaries, salaryOpe);
 
         List<Map<String, Object>> encryptedRecords = new ArrayList<>(envelopes.size());
         long sourceRow = 0;
@@ -89,8 +80,6 @@ public final class BootstrapClient {
                     envelope.row,
                     envelope.age,
                     envelope.salaryCents,
-                    ageCipherByPlain,
-                    salaryCipherByPlain,
                     sourceRow++
             ));
         }
@@ -103,8 +92,6 @@ public final class BootstrapClient {
             Map<String, String> row,
             long age,
             long salaryCents,
-            Map<Long, Long> ageCipherByPlain,
-            Map<Long, Long> salaryCipherByPlain,
             long sourceRow
     ) throws IOException {
         Map<String, Object> record = new LinkedHashMap<>();
@@ -147,10 +134,12 @@ public final class BootstrapClient {
         record.put("employmentType_rnd", encryptionService.encryptSensitiveText(employmentType));
         record.put("salaryBand_rnd", encryptionService.encryptSensitiveText(salaryBand));
 
-        record.put("age_ope", age >= 0 ? ageCipherByPlain.get(age) : null);
+        System.out.println("age ope before : " + age);
+        record.put("age_ope", age >= 0 ? ageOpe.encrypt(age) : null);
+        System.out.println("age ope after : " + ageOpe.encrypt(age));
 
         if (salaryCents >= 0) {
-            record.put("salary_ope", salaryCipherByPlain.get(salaryCents));
+            record.put("salary_ope", salaryOpe.encrypt(salaryCents));
             BigInteger salaryHom = encryptionService.encryptSalaryCents(salaryCents);
             record.put("salary_hom", salaryHom.toString());
         } else {
@@ -186,6 +175,7 @@ public final class BootstrapClient {
         return combined.isBlank() ? "" : combined;
     }
 
+    /**
     private static Map<Long, Long> buildOpeMap(TreeSet<Long> sortedValues, OpeCipher ope) {
         Map<Long, Long> map = new LinkedHashMap<>();
         for (Long value : sortedValues) {
@@ -193,6 +183,7 @@ public final class BootstrapClient {
         }
         return map;
     }
+     */
 
     private static List<Map<String, String>> readCsv(Path csvPath) throws IOException {
         Map<String, String> headerAliases = Map.ofEntries(
