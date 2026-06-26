@@ -18,16 +18,20 @@ public final class SignatureUtil {
 
     public static byte[] sign(PrivateKey privateKey, String message) {
         try {
+            /**
             long start = System.nanoTime();
+             */
 
             Signature sig = Signature.getInstance("SHA256withECDSA");
             sig.initSign(privateKey);
             sig.update(message.getBytes(StandardCharsets.UTF_8));
             byte[] signature = sig.sign();
 
+            /**
             long end = System.nanoTime();
             long ns = (end - start);
             System.out.println("[Execution time: " + ns + " ns]");
+             */
 
             return signature;
         } catch (Exception e) {
